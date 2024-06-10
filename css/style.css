@@ -1,0 +1,143 @@
+.img{
+    max-width: 300px;
+}
+
+img{
+    width: 300px;
+}
+.main_inf img:first-child,
+.main_inf img:last-child{
+    max-height: 353px;
+}
+.main_inf{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 0, 0, 0.319);
+}
+
+.ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    padding-right: 20px;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(74, 0, 0);
+}
+header h2,h1{
+text-align: center;
+}
+.category li{
+    font-size: 30px;
+    position: relative;
+    padding: 10px;
+}
+.category li:before{
+    content: url(../img/category.png);
+    position: absolute;
+    top: 12px;
+    left: -30px;
+} 
+.cat{
+    font-size: 40px;
+    color: brown;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.category{
+    list-style: none;
+}
+.help{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    font-size: 30px;
+    padding: 0 50px;
+    max-width: 500px;
+}
+body {
+    background-color: rgb(199, 199, 199);
+}
+table{
+    /* border: 3px solid red; */
+    border-radius: 25px;
+    background-color: rgb(98, 12, 12);
+    /* border-collapse: collapse; */
+    /* об'єднання рамочок в таблиці */
+}
+th{
+    background-color: rgb(145, 145, 145);
+    font-size: 30px;
+    padding: 5px 20px;
+    border-radius: 25px 25px 0 0;
+    border-color: rgb(145, 145, 145);
+}
+td{
+    /* border: 1px solid red;
+    border-right: none;
+    border-left: none; */
+    text-align: center;
+    /* border-bottom: none; */
+    border-collapse: collapse;
+    padding: 15px;
+    font-size: 25px;
+}
+tbody tr:last-child td{
+    border-radius: 0 0 25px 25px;
+}
+.table{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0;
+}
+thead{
+    background-color: rgb(145, 145, 145);
+    border: 3px solid rgb(145, 145, 145);;
+}
+tbody{
+    background-color: rgb(199, 199, 199);
+}
+tr:hover{
+    background-color: #a93434;
+}
+.org{
+    font-size: 20px;
+    color: #000066;
+}
+footer{
+    background-color: hwb(235 0% 27% / 0.412);
+    color: #ffffff;
+}
+.ulrules{
+    list-style: none; 
+    font-size: 20px;   
+}
+.ulrules li{
+    margin: 25px;
+}
+.imgrules{
+    width: 250px;
+}
+.h2rules{
+    margin: 25px;
+    font-size: 45px;
+}
+.divrules{
+    margin: 75px 0;
+}
